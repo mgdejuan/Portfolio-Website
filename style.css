@@ -661,7 +661,7 @@ section.start-animation input:nth-child(2){
     opacity: 0;
     transform: translateY(100px);
 }
- h1 {
+    .collection h1 {
       text-align: center;
       margin-bottom: 40px;
       font-size: 2.5em;
@@ -673,11 +673,10 @@ section.start-animation input:nth-child(2){
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 20px;
       max-width: 2000px;
-      margin: 90px auto;
+      margin-bottom: 150px;
     }
 
     .box {
-      background-color: #fff;
       border-radius: 12px;
       overflow: hidden;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -686,6 +685,7 @@ section.start-animation input:nth-child(2){
 
     .box:hover {
       transform: translateY(-5px);
+      background-image: #ff00ee;
     }
 
     .box img {
@@ -697,14 +697,14 @@ section.start-animation input:nth-child(2){
     .caption {
       padding: 10px;
       text-align: center;
-      font-size: 1.5rem;
-      color: #555;
+      font-size: 1.5em;
+      color: #fff;
     }
 /* footer */
 
 footer{
     background: #080707;
-    padding: 2rem;
+    padding: 2rem 9%;
     display: flex;
     justify-content: space-between;
     align-items: center;
